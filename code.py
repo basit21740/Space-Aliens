@@ -30,7 +30,7 @@ def game_scene():
 
         if keys & ugame.K_X != 0:
             print("A")
-        if keys & game.K_O != 0:
+        if keys & ugame.K_O != 0:
             print("B")
         if keys & ugame.K_START != 0:
             print("Start")
